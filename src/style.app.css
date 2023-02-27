@@ -10,7 +10,7 @@
 }
 
 .title {
-    font-size: 7rem;
+    font-size: 6rem;
     color: #000;
     animation: flipTitle 2s;
 }
@@ -47,6 +47,10 @@
     margin-right: 1.3rem;
 }
 
+.containerInput input::placeholder {
+    color: rgb(0, 0, 0);
+}
+
 .buttonSearch {
     background-color: transparent;
     border: none;
@@ -71,7 +75,7 @@
 
     background-color: #474b56;
 
-    width: 40%;
+    width: 50%;
     border-radius: 8px;
     box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
 }
